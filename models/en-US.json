@@ -1,0 +1,297 @@
+{
+  "invocation": "my test app",
+  "intents": [
+    {
+      "name": "HelloWorldIntent",
+      "phrases": [
+        "hello",
+        "say hello",
+        "say hello world"
+      ]
+    },
+    {
+      "name": "UpdateIntent",
+      "phrases": [
+        "{pic}",
+        "{pic} again",
+        "update",
+        "change",
+        "select {pic}",
+        "change {pic}",
+        "update {pic}",
+        "{pic} update",
+        "choose {pic}"
+      ],
+      "inputs": [
+        {
+          "name": "pic",
+          "type": "picType"
+        }
+      ]
+    },
+    {
+      "name": "DeleteIntent",
+      "phrases": [
+        "delete"
+      ]
+    },
+
+    {
+      "name": "DocumentIntent",
+      "phrases": [
+        "documents",
+        "list of documents required"
+      ]
+    },
+    {
+      "name": "StatusIntent",
+      "phrases": [
+        "{plugin}"
+      ],
+      "inputs": [
+        {
+          "name": "plugin",
+          "type": "pluginType"
+        }
+      ]
+    },
+    {
+      "name": "ImmigrationIntent",
+      "phrases": [
+        "what are the immigration rules"
+      ]
+    },
+    {
+      "name": "BlueCardIntent",
+      "phrases": [
+        "blue card",
+        "bluecard"
+      ]
+    },
+    {
+      "name": "ResidencePermitIntent",
+      "phrases": [
+        "{rp}",
+        "i have to {rp} for residence permit",
+        "i have {rp}",
+        "my residence permit has {rp}",
+        "what is residence permit",
+        "visa extension",
+        "resident permit"
+      ],
+      "inputs": [
+        {
+          "name": "rp",
+          "type": "rpType"
+        }
+      ]
+    },
+    {
+      "name": "OfficeHoursIntent",
+      "phrases": [
+        "When is it open",
+        "what is office hours",
+        "office hours",
+        "opening hours"
+      ]
+    },
+    {
+      "name": "TramAccess",
+      "phrases": [
+        "how to reach location",
+        "tram access","tram",
+        "how to reach office"
+      ]
+    },
+    {
+      "name": "  QuestionIntent",
+      "phrases": [
+        "question"
+      ]
+    },
+    {
+      "name": "ThankYouIntent",
+      "phrases": [
+        "ok","thank you","thanks"
+      ]
+    },
+   
+    {
+      "name": "MyNameIsIntent",
+      "phrases": [
+        "{name}",
+        "my name is {name}",
+        "i am {name}",
+        "you can call me {name}"
+      ],
+      "inputs": [
+        {
+          "name": "name",
+          "type": {
+            "alexa": "AMAZON.US_FIRST_NAME",
+            "dialogflow": "@sys.given-name"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WorkPermitIntent",
+      "phrases": [
+        "work",
+        "earn",
+        "work permit",
+        "am I allowed to work",
+        "do I have work permit",
+        "how many hours can i work?"
+      ]
+    },
+    {
+      "name": "YesIntent",
+      "phrases": [
+        "yes",
+        "ya",
+        "yup",
+        "yea"
+      ]
+    },
+    {
+      "name": "NoIntent",
+      "phrases": [
+        "no",
+        "nop",
+        "nope",
+        "nah"
+      ]
+    }
+  ],
+  "alexa": {
+    "interactionModel": {
+      "languageModel": {
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          }
+        ]
+      }
+    }
+  },
+  "dialogflow": {
+    "intents": [
+      {
+        "name": "Default Fallback Intent",
+        "auto": true,
+        "webhookUsed": true,
+        "fallbackIntent": true
+      },
+      {
+        "name": "Default Welcome Intent",
+        "auto": true,
+        "webhookUsed": true,
+        "events": [
+          {
+            "name": "WELCOME"
+          }
+        ]
+      }
+    ]
+  },
+  "inputTypes": [
+    {
+      "name": "rpType",
+      "values": [
+        {
+          "value": "lost",
+          "synonyms": [
+            "lost",
+            "absent",
+            "eaT lost"
+          ]
+        },
+        {
+          "value": "renew",
+          "synonyms": [
+            "eaT renew"
+          ]
+        },
+        {
+          "value": "apply",
+          "synonyms": [
+            "eaT apply"
+          ]
+        },
+        {
+          "value": "issuance",
+          "synonyms": [
+            "eaT issuance"
+          ]
+        },
+        {
+          "value": "expire",
+          "synonyms": [
+            "eaT expire"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "picType",
+      "values": [
+        {
+          "value": "username",
+          "synonyms": [
+            "user name",
+            "my name",
+            "username"
+          ]
+        },
+        {
+          "value": "category"
+        }
+      ]
+    },
+    {
+      "name": "pluginType",
+      "values": [
+        {
+          "value": "EU Student"
+        },
+        {
+          "value": "EU Graduate"
+        },
+        {
+          "value": "Non-EU Student"
+        },
+        {
+          "value": "Non-EU Graduate"
+        },
+        {
+          "value": "EU GRAD"
+        },
+        {
+          "value": "NON-EU GRAD"
+        },
+        {
+          "value": "a"
+        },
+        {
+          "value": "b"
+        },
+        {
+          "value": "c"
+        },
+        {
+          "value": "d"
+        }
+      ]
+    }
+  ]
+}

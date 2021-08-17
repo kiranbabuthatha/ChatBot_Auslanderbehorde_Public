@@ -1,0 +1,17 @@
+{
+	"name": "StatusIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "plugin",
+					"value": "$plugin",
+					"dataType": "@pluginType"
+				}
+			]
+		}
+	]
+}

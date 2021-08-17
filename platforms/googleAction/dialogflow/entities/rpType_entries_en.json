@@ -1,0 +1,39 @@
+[
+	{
+		"value": "lost",
+		"synonyms": [
+			"lost",
+			"lost",
+			"absent",
+			"eaT lost"
+		]
+	},
+	{
+		"value": "renew",
+		"synonyms": [
+			"renew",
+			"eaT renew"
+		]
+	},
+	{
+		"value": "apply",
+		"synonyms": [
+			"apply",
+			"eaT apply"
+		]
+	},
+	{
+		"value": "issuance",
+		"synonyms": [
+			"issuance",
+			"eaT issuance"
+		]
+	},
+	{
+		"value": "expire",
+		"synonyms": [
+			"expire",
+			"eaT expire"
+		]
+	}
+]

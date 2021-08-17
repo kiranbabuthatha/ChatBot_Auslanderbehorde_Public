@@ -1,0 +1,96 @@
+[
+	{
+		"data": [
+			{
+				"text": "rp",
+				"userDefined": true,
+				"alias": "rp",
+				"meta": "@rpType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "i have to ",
+				"userDefined": false
+			},
+			{
+				"text": "rp",
+				"userDefined": true,
+				"alias": "rp",
+				"meta": "@rpType"
+			},
+			{
+				"text": " for residence permit",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "i have ",
+				"userDefined": false
+			},
+			{
+				"text": "rp",
+				"userDefined": true,
+				"alias": "rp",
+				"meta": "@rpType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "my residence permit has ",
+				"userDefined": false
+			},
+			{
+				"text": "rp",
+				"userDefined": true,
+				"alias": "rp",
+				"meta": "@rpType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "what is residence permit",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "visa extension",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "resident permit",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

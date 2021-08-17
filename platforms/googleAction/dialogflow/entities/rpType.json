@@ -1,0 +1,9 @@
+{
+	"id": "128ac70e-d207-40dd-adef-268b61a5f796",
+	"name": "rpType",
+	"isOverridable": true,
+	"isEnum": false,
+	"automatedExpansion": false,
+	"isRegexp": false,
+	"allowFuzzyExtraction": false
+}

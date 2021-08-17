@@ -1,0 +1,22 @@
+[
+	{
+		"data": [
+			{
+				"text": "blue card",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "bluecard",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

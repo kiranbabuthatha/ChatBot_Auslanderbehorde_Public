@@ -1,0 +1,17 @@
+{
+	"name": "UpdateIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "pic",
+					"value": "$pic",
+					"dataType": "@picType"
+				}
+			]
+		}
+	]
+}

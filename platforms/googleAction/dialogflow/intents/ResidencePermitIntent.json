@@ -1,0 +1,17 @@
+{
+	"name": "ResidencePermitIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "rp",
+					"value": "$rp",
+					"dataType": "@rpType"
+				}
+			]
+		}
+	]
+}

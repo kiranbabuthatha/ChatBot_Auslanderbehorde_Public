@@ -1,0 +1,41 @@
+{
+  "name": "jovo-sample-voice-app-nodejs",
+  "version": "3.0.0",
+  "description": "A sample voice app that works with the Jovo Framework",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/firestore": "^0.19.0",
+    "jovo-db-dynamodb": "^3.5.1",
+    "jovo-db-filedb": "^3.5.1",
+    "jovo-db-firestore": "^3.5.1",
+    "jovo-framework": "^3.5.1",
+    "jovo-platform-dialogflow": "^3.5.2",
+    "jovo-platform-googleassistant": "^3.5.2",
+    "jovo-plugin-debugger": "^3.5.1",
+    "node-schedule": "^1.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-install": "^1.1.0",
+    "gulp-run-command": "0.0.10",
+    "gulp-zip": "^5.0.1",
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "tsc": "node -v",
+    "test": "jest",
+    "bundle": "gulp --gulpfile node_modules/jovo-framework/gulpfile.js --cwd ./",
+    "start": "cd src && node index.js --webhook",
+    "launch": "npm start -- --launch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovotech/jovo-sample-voice-app-nodejs.git"
+  },
+  "author": "Jovo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jovotech/jovo-sample-voice-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/jovotech/jovo-sample-voice-app-nodejs#readme"
+}

@@ -1,0 +1,62 @@
+[
+	{
+		"value": "EU Student",
+		"synonyms": [
+			"EU Student"
+		]
+	},
+	{
+		"value": "EU Graduate",
+		"synonyms": [
+			"EU Graduate"
+		]
+	},
+	{
+		"value": "Non-EU Student",
+		"synonyms": [
+			"Non-EU Student"
+		]
+	},
+	{
+		"value": "Non-EU Graduate",
+		"synonyms": [
+			"Non-EU Graduate"
+		]
+	},
+	{
+		"value": "EU GRAD",
+		"synonyms": [
+			"EU GRAD"
+		]
+	},
+	{
+		"value": "NON-EU GRAD",
+		"synonyms": [
+			"NON-EU GRAD"
+		]
+	},
+	{
+		"value": "a",
+		"synonyms": [
+			"a"
+		]
+	},
+	{
+		"value": "b",
+		"synonyms": [
+			"b"
+		]
+	},
+	{
+		"value": "c",
+		"synonyms": [
+			"c"
+		]
+	},
+	{
+		"value": "d",
+		"synonyms": [
+			"d"
+		]
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"value": "username",
+		"synonyms": [
+			"username",
+			"user name",
+			"my name",
+			"username"
+		]
+	},
+	{
+		"value": "category",
+		"synonyms": [
+			"category"
+		]
+	}
+]

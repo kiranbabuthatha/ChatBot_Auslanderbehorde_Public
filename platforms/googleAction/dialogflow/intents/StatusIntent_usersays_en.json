@@ -1,0 +1,14 @@
+[
+	{
+		"data": [
+			{
+				"text": "plugin",
+				"userDefined": true,
+				"alias": "plugin",
+				"meta": "@pluginType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]
