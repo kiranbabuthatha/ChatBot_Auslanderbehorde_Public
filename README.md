@@ -11,7 +11,7 @@ Once the project is cloned, change your working directory of this project direct
 # Install dependencies.
 $ npm install
 ```
-Paste your Firebase Authentication .json Key at **/ChatBot_Auslanderbehorde_Public/src/firebase_Connection_file.json
+Paste your Firebase Authentication .json Key at **/ChatBot_Auslanderbehorde_Public/src/firebase_Connection_file.json**
 
 For setting up all the Frameworks and tools, please read the document below. 
 
