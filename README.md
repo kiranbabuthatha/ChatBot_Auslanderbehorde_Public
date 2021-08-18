@@ -13,8 +13,7 @@ $ npm install
 ```
 Paste your Firebase Authentication .json Key at **/ChatBot_Auslanderbehorde_Public/src/firebase_Connection_file.json**
 
-For setting up all the Frameworks and tools, please read the document below. 
-
+For setting up all the Frameworks and tools, please read the [Project_Document](https://github.com/kiranbabuthatha/ChatBot_Auslanderbehorde_Public/blob/main/Chatbot_Documentation.pdf)
 
 
 ```sh
